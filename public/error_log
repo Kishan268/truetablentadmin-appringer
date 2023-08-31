@@ -1,0 +1,53 @@
+[13-Dec-2021 08:16:21 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function execPrint() in /home/apprbdea/ttadmin.appringer.in/public/deploy.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/apprbdea/ttadmin.appringer.in/public/deploy.php on line 2
+[16-Jan-2022 15:52:35 America/New_York] PHP Fatal error:  Uncaught Error: Undefined constant 'CRYPTO_AEAD_XCHACHA20POLY1305_IETF_KEYBYTES' in /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/constants.php:22
+Stack trace:
+#0 /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/sodium_compat.php(825): require_once()
+#1 /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/autoload.php(51): require_once('/home/apprbdea/...')
+#2 /home/apprbdea/ttadmin.appringer.in/vendor/composer/autoload_real.php(71): require('/home/apprbdea/...')
+#3 /home/apprbdea/ttadmin.appringer.in/vendor/composer/autoload_real.php(61): composerRequire7ac16d533659583c9a1e3d3c45b5ab9f('3109cb1a231dcd0...', '/home/apprbdea/...')
+#4 /home/apprbdea/ttadmin.appringer.in/vendor/autoload.php(7): ComposerAutoloaderInit7ac16d533659583c9a1e3d3c45b5ab9f::getLoader()
+#5 /home/apprbdea/ttadmin.appringer.in/public/index.php(22): require('/home/apprbdea/...')
+#6 {main}
+  thrown in /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/constants.php on line 22
+[24-Jan-2022 06:33:06 America/New_York] PHP Fatal error:  Uncaught Error: Undefined constant 'CRYPTO_AEAD_XCHACHA20POLY1305_IETF_KEYBYTES' in /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/constants.php:22
+Stack trace:
+#0 /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/sodium_compat.php(825): require_once()
+#1 /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/autoload.php(51): require_once('/home/apprbdea/...')
+#2 /home/apprbdea/ttadmin.appringer.in/vendor/composer/autoload_real.php(71): require('/home/apprbdea/...')
+#3 /home/apprbdea/ttadmin.appringer.in/vendor/composer/autoload_real.php(61): composerRequire7ac16d533659583c9a1e3d3c45b5ab9f('3109cb1a231dcd0...', '/home/apprbdea/...')
+#4 /home/apprbdea/ttadmin.appringer.in/vendor/autoload.php(7): ComposerAutoloaderInit7ac16d533659583c9a1e3d3c45b5ab9f::getLoader()
+#5 /home/apprbdea/ttadmin.appringer.in/public/index.php(22): require('/home/apprbdea/...')
+#6 {main}
+  thrown in /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/constants.php on line 22
+[02-Feb-2022 01:51:43 America/New_York] PHP Fatal error:  Uncaught Error: Undefined constant 'CRYPTO_AEAD_XCHACHA20POLY1305_IETF_KEYBYTES' in /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/constants.php:22
+Stack trace:
+#0 /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/sodium_compat.php(825): require_once()
+#1 /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/autoload.php(51): require_once('/home/apprbdea/...')
+#2 /home/apprbdea/ttadmin.appringer.in/vendor/composer/autoload_real.php(71): require('/home/apprbdea/...')
+#3 /home/apprbdea/ttadmin.appringer.in/vendor/composer/autoload_real.php(61): composerRequire7ac16d533659583c9a1e3d3c45b5ab9f('3109cb1a231dcd0...', '/home/apprbdea/...')
+#4 /home/apprbdea/ttadmin.appringer.in/vendor/autoload.php(7): ComposerAutoloaderInit7ac16d533659583c9a1e3d3c45b5ab9f::getLoader()
+#5 /home/apprbdea/ttadmin.appringer.in/public/index.php(22): require('/home/apprbdea/...')
+#6 {main}
+  thrown in /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/constants.php on line 22
+[10-Feb-2022 08:25:25 UTC] PHP Fatal error:  Cannot redeclare App\Models\Job::$hidden in /home/apprbdea/ttadmin.appringer.in/app/Models/Job.php on line 18
+[10-Feb-2022 08:25:25 UTC] PHP Fatal error:  Cannot redeclare App\Models\Job::$hidden in /home/apprbdea/ttadmin.appringer.in/app/Models/Job.php on line 18
+[10-Feb-2022 08:25:25 UTC] PHP Fatal error:  Cannot redeclare App\Models\Job::$hidden in /home/apprbdea/ttadmin.appringer.in/app/Models/Job.php on line 18
+[10-Feb-2022 08:25:46 UTC] PHP Fatal error:  Cannot redeclare App\Models\Job::$hidden in /home/apprbdea/ttadmin.appringer.in/app/Models/Job.php on line 18
+[10-Feb-2022 08:25:46 UTC] PHP Fatal error:  Cannot redeclare App\Models\Job::$hidden in /home/apprbdea/ttadmin.appringer.in/app/Models/Job.php on line 18
+[10-Feb-2022 08:25:46 UTC] PHP Fatal error:  Cannot redeclare App\Models\Job::$hidden in /home/apprbdea/ttadmin.appringer.in/app/Models/Job.php on line 18
+[10-Feb-2022 08:27:41 UTC] PHP Fatal error:  Cannot redeclare App\Models\Job::$hidden in /home/apprbdea/ttadmin.appringer.in/app/Models/Job.php on line 18
+[11-Feb-2022 11:39:41 UTC] PHP Fatal error:  Key element cannot be a reference in /home/apprbdea/ttadmin.appringer.in/app/Models/Job.php on line 92
+[11-Feb-2022 11:40:23 UTC] PHP Fatal error:  Key element cannot be a reference in /home/apprbdea/ttadmin.appringer.in/app/Models/Job.php on line 92
+[12-Feb-2022 01:55:14 America/New_York] PHP Fatal error:  Uncaught Error: Undefined constant 'CRYPTO_AEAD_XCHACHA20POLY1305_IETF_KEYBYTES' in /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/constants.php:24
+Stack trace:
+#0 /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/sodium_compat.php(825): require_once()
+#1 /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/autoload.php(51): require_once('/home/apprbdea/...')
+#2 /home/apprbdea/ttadmin.appringer.in/vendor/composer/autoload_real.php(71): require('/home/apprbdea/...')
+#3 /home/apprbdea/ttadmin.appringer.in/vendor/composer/autoload_real.php(61): composerRequire7ac16d533659583c9a1e3d3c45b5ab9f('3109cb1a231dcd0...', '/home/apprbdea/...')
+#4 /home/apprbdea/ttadmin.appringer.in/vendor/autoload.php(7): ComposerAutoloaderInit7ac16d533659583c9a1e3d3c45b5ab9f::getLoader()
+#5 /home/apprbdea/ttadmin.appringer.in/public/index.php(22): require('/home/apprbdea/...')
+#6 {main}
+  thrown in /home/apprbdea/ttadmin.appringer.in/vendor/paragonie/sodium_compat/lib/constants.php on line 24

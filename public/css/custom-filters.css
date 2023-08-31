@@ -1,0 +1,162 @@
+@media screen and (min-width: 768px) {
+            .col-md-2 {
+                flex: 0 0 auto !important;
+                width: 22.7666667% !important;
+            }
+
+            button.btn.btn-primary.btn-icon-text {
+                width: 102% !important;
+                margin-left: 0px !important;
+            }
+
+            a.btn.btn-primary.advance-filter {
+                width: 102% !important;
+                margin-left: 0px !important;
+            }
+
+            .form-group.has-search {
+                margin-right: 10% !important;
+                width: 92% !important;
+            }
+
+            .col-md-4 {
+                flex: 0 0 auto;
+                width: 31.333333% !important;
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+
+            button.btn.btn-primary.btn-icon-text {
+                width: 102% !important;
+                margin-left: 0px !important;
+                margin-bottom: -17px !important;
+            }
+
+            a.btn.btn-primary.advance-filter {
+                width: 102% !important;
+                margin-left: 0px !important;
+            }
+
+            .form-group.has-search {
+                margin-right: 10% !important;
+                width: 92% !important;
+                margin-bottom: -7% !important;
+
+            }
+
+
+        }
+
+        @media screen and (max-width: 425px) {
+            button.btn.btn-primary.btn-icon-text {
+                margin-top: 7px !important;
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            button.btn.btn-primary.btn-icon-text {
+                margin-top: 0px !important;
+            }
+        }
+
+        .addCash {
+            position: relative;
+            top: -1px;
+            cursor: pointer;
+        }
+
+        .main {
+            width: 50%;
+            margin: 50px auto;
+        }
+
+        /* Bootstrap 4 text input with search icon */
+
+        .has-search .form-control {
+            padding-left: 2.375rem;
+        }
+
+        .has-search .form-control-feedback {
+            position: absolute;
+            z-index: 2;
+            display: block;
+            width: 2.375rem;
+            height: 2.375rem;
+            line-height: 2.375rem;
+            text-align: center;
+            pointer-events: none;
+            color: #aaa;
+        }
+
+        .has-search .form-control-feedback {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef
+        }
+
+        .row {
+            --bs-gutter-x: 0.3rem !important;
+        }
+
+        .form-group.has-search {
+            margin-right: 10%;
+        }
+
+        button.btn.btn-primary.btn-icon-text {
+            width: 103%;
+            margin-right: 28px;
+        }
+
+        a.btn.btn-primary.advance-filter {
+            width: 100%;
+            margin-left: 4px;
+        }
+
+        .has-search .form-control {
+            padding-left: 2.375rem;
+            width: 110%;
+        }
+
+        /* .card-header:not(.collapsed) .rotate-icon {
+          transform: rotate(180deg);
+        }*/
+
+        .panel-title {
+            position: relative;
+        }
+
+        .panel-title::after {
+            content: "\f107";
+            color: #fff;
+            top: 8px;
+            margin-right: 15px;
+            right: 0px;
+            position: absolute;
+            font-family: "FontAwesome";
+            font-weight: 1000;
+        }
+
+        .panel-title[aria-expanded="true"]::after {
+            content: "\f106";
+        }
+
+        /*
+         * Added 12-27-20 to showcase full title clickthrough
+         */
+
+        .panel-heading-full.panel-heading {
+            padding: 0;
+        }
+
+        .panel-heading-full .panel-title {
+            padding: 10px 15px;
+        }
+
+        .panel-heading-full .panel-title::after {
+            top: 10px;
+            right: 15px;
+        }
+
+        .dropdown.mt-1 {
+            margin-top: 5px !important;
+        }
